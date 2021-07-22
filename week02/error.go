@@ -14,7 +14,7 @@ import (
 //	}
 // 通过查看Row.Scan方法是在记录为空时返回ErrNoRows是正常的错误返回，dao层应该自己处理掉这个error不需要抛给上层
 
-type rows = map[string]strig
+type rows = map[string]string
 
 func main() {
 	row, err := dao()
